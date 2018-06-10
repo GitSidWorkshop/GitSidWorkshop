@@ -12,11 +12,13 @@ public class SampleApp {
 			System.out.println(i);
 		}
 		 System.out.println("add==="+SampleApp.sub(100,200));
+		 
+		 new ListCountries().displayCountries();
 
 		 WishGenerator generator=new WishGenerator();
 		    System.out.println("Msg:::"+generator.generateWishMessage("Raja"));
 	}
-
+	 
 }
 // hi
 // Hello

@@ -13,6 +13,8 @@ public class SampleApp {
 		}
 		 System.out.println("add==="+SampleApp.sub(100,200));
 
+		 WishGenerator generator=new WishGenerator();
+		    System.out.println("Msg:::"+generator.generateWishMessage("Raja"));
 	}
 
 }
